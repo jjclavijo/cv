@@ -1,0 +1,166 @@
+%% start of file `template.tex'.
+%% Copyright 2006-2015 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+
+\documentclass[11pt,a4paper,sans]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+
+% moderncv themes
+\moderncvstyle{casual}                             % style options are 'casual' (default), 'classic', 'banking', 'oldstyle' and 'fancy'
+\moderncvcolor{orange}                               % color options 'black', 'blue' (default), 'burgundy', 'green', 'grey', 'orange', 'purple' and 'red'
+%\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+%\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
+
+% character encoding
+\usepackage[utf8]{inputenc}                       % if you are not using xelatex ou lualatex, replace by the encoding you are using
+%\usepackage[spanish]{babel}
+%\usepackage{CJKutf8}                              % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
+
+% adjust the page margins
+\usepackage[scale=0.75]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
+%\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+
+% personal data
+\name{Javier José}{Clavijo}
+\title{Curriculum Vitae - Mayo 2022}                               % optional, remove / comment the line if not wanted
+\address{Enzo Bordabehere 2879}{1417 Ciudad Autónoma de Buenos Aires}{Argentina}% optional, remove / comment the line if not wanted; the "postcode city" and "country" arguments can be omitted or provided empty
+\phone[mobile]{(011)-15-5805-1093}                   % optional, remove / comment the line if not wanted; the optional "type" of the phone can be "mobile" (default), "fixed" or "fax"
+\phone[fixed]{(011)4522-4671}
+\email{jjclavijo@gmail.com}                               % optional, remove / comment the line if not wanted
+%\homepage{www.johndoe.com}                         % optional, remove / comment the line if not wanted
+\social[linkedin]{javier-j-clavijo}                        % optional, remove / comment the line if not wanted
+%\social[twitter]{jdoe}                             % optional, remove / comment the line if not wanted
+%\social[github]{jdoe}                              % optional, remove / comment the line if not wanted
+%\extrainfo{additional information}                 % optional, remove / comment the line if not wanted
+%\photo[64pt][0.4pt]{picture}                       % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
+\quote{Ingeniero en Agrimensura, Docente en Cartografía}                                 % optional, remove / comment the line if not wanted
+
+% bibliography adjustements (only useful if you make citations in your resume, or print a list of publications using BibTeX)
+%   to show numerical labels in the bibliography (default is to show no labels)
+\makeatletter\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}\makeatother
+%   to redefine the bibliography heading string ("Publications")
+%\renewcommand{\refname}{Articles}
+
+% bibliography with mutiple entries
+%\usepackage{multibib}
+%\newcites{book,misc}{{Books},{Others}}
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+%\begin{CJK*}{UTF8}{gbsn}                          % to typeset your resume in Chinese using CJK
+%-----       resume       ---------------------------------------------------------
+\makecvtitle
+
+\section{Estudios}
+\cventry{2015--Presente}{Posgrado}{Facultad de Ingeniería}{Universidad de Buenos Aires}{\textit{Doctorado en Ingeniería}}{
+  Cursos acreditados: Procesos Estocásticos -- Geotectónica -- Métodos Numéricos para Geofísica -- Introducción al Análisis Tensorial -- Redes Neuronales -- Aprendizaje Estadístico\\
+  Tesis en curso}  % arguments 3 to 6 can be left empty
+\cvitem{Beca}{ Beca Peruilh de la Facultad de ingeniería, período 05-4-2016 a 05-4-2019, Res CD 2927/2016, Res CD 4813/2017 y Res CD 334/2018}
+\cventry{2019}{Formación Docente}{CITEP}{Universidad de Buenos Aires}{Evaluación Formativa, Una puerta para el aprendizaje}{}
+\cventry{2008--2014}{Grado}{Facultad de Ingeniería}{Universidad de Buenos Aires}{\textit{Ingeniero en Agrimensura}}{Carrera de grado completa, promedio de la carrera: 8.38}  % arguments 3 to 6 can be left empty
+\cventry{2007--2002}{Técnico}{Instituto Pío IX}{Buenos Aires}{\textit{Técnico en Electrónica}}{Secundario técnico con
+especialización en Electrónica}
+
+\section{Experiencia}
+\subsection{Docencia}
+
+\cventry{Oct 2021}{Dictado Curso de Complementación}{Datos libres para Cartografía}{Instituto de Geodesia y Geofísica Aplicadas -- Facultad de Ingeniería -- Universidad de Buenos Aires}{}{ Curso Intensivo de 5 Clases totalizando 20hs en modalidad virtual, aprobado por resolución del decano REDEC-2021-3084-E-UBA-DCT\_FI. \\ Material y grabaciones disponibles en \url{https://cartoenfiuba.github.io/} }
+\cventry{May 2020--Presente}{Ayudante de Primera Interino}{Instituto de Geodesia y Geofísica Aplicadas -- Facultad de Ingeniería}{Universidad de Buenos Aires}{}{
+Dedicación semi-Exclusiva, Asignado a la materia \textbf{Hidráulica Agrícola y Saneamiento} del Departamento de Agrimensura. Resolución 859/2020}
+\cventry{Jul 2019--Presente}{Jefe de Trabajos Prácticos Interino}{Facultad de Ingeniería}{Universidad de Buenos Aires}{}{
+Dedicación semi-Exclusiva, Asignado a la materia \textbf{Cartografía} del Departamento de Agrimensura. Resolución 2320/19}
+\cventry{Jul 2018--Jul 2019}{Jefe de Trabajos Prácticos Interino}{Facultad de Ingeniería}{Universidad de Buenos Aires}{}{
+Dedicación Simple, Asignado a la materia \textbf{Cartografía} del Departamento de Agrimensura. Resolución 741/18}
+\cventry{2017--Jul 2018}{Ayudante de Primera}{Facultad de Ingeniería}{Universidad de Buenos Aires}{}{
+Dedicación Simple, Asignado a la materia \textbf{Cartografía} del Departamento de Agrimensura. \\ Concursado, Resolución 5114/17}
+\cventry{2015--2017}{Ayudante de Primera Interino}{Facultad de Ingeniería}{Universidad de Buenos Aires}{}{
+  Dedicación Simple, Asignado a la materia \textbf{Cartografía} del Departamento de Agrimensura. \\
+  Resoluciones: 2113/15 nombramiento 7/7/2015 a 29/2/2016, 223/16 Renovación hasta 28/2/2017, 410/17 Renovación hasta 28/2/2018}
+
+\subsection{Ejercicio de la Profesión}
+\cventry{2013--Presente}{Socio}{RyJ Clavijo Estudio de Agrimensura}{Buenos Aires}{}{
+  RyJ Clavijo, de “Raúl A Clavijo y Javier J Clavijo SH” es un estudio que realiza tareas profesionales de agrimensura tanto en la Ciudad Autónoma de Buenos Aires, como en la Provincia de Buenos Aires y esporádicamente en el interior del país.}
+
+\cventry{Dic 2016}{Proveedor}{Universidad Tecnológica Nacional}{Relevamiento del Planetario de Buenos Aires “Galileo Galilei”}{}{
+Se realizaron tareas de relevamiento en el entorno del planetario para apoyar el proyecto de obras de renovación. El trabajo, encargado por el gobierno de la ciudad se realizó a través de un convenio con la Universidad Tecnológica Nacional.}
+
+\cventry{marzo -- mayo 2015}{Asesoramiento}{SERMAN \& Asociados}{Relevamiento Cuenca Rió Luján}{}{Estudio de la cuenca del Rió Lujan,
+  en sociedad con el Ing. Agrónomo José M. Clavijo, se realizó análisis de la cuenca a través de imágenes satelitales y datos vectoriales de Open Street Map. }
+
+\cventry{2008 -- 2013}{Free Lance}{Trabajos de Apoyo a la Agrimensura}{}{}{
+Tareas de topografía - Revelamientos planialtimétricos - Apoyo a obra vial - Confección de planos de mensura - Tramitación de Estados Parcelarios – Estudio de antecedentes catastrales y dominiales - Cálculo de mediciones GPS - Desarrollo de herramientas informáticas para asistencia al cálculo y dibujo en Computadora.}
+
+\section{Investigación}
+\subsection{Proyectos en curso}
+
+\cvitem{UBATIC \\ Co-Director de Proyecto}{\emph{Sistema de visualización geográfica proyectada sobre pantalla esférica} - Universidad de Buenos Aires - Resolución del consejo superior RESCS-2021-803-E-UBA-REC}
+
+\subsection{Tesis de Doctorado}
+
+\cvitem{En Curso}{Carrera de Doctorado en Ingeniería en la Facultad de Ingeniería -- Universidad de Buenos Aires.}
+\cvitem{Título}{\emph{Estudio y monitoreo de la deformación de la corteza terrestre a partir de mediciones continuas de sistemas globales de navegación por satélite (GNSS), en un marco de referencia estable con respecto a la placa Sudamericana}}
+\cvitem{Director}{Dra Silvia Alicia Miranda -- \textit{ Facultad de ciencias exactas físicas y naturales -- Universidad nacional de San Juan}}
+\cvitem{Director}{Ing Enrique E. D'Onofrio -- \textit{ Facultad de ingeniería -- Universidad de Buenos Aires}}
+
+\subsection{Tesis de Grado}
+
+\cvitem{}{Trabajo final de grado para la carrera de Ingeniería en Agrimensura.}
+\cvitem{Título}{\emph{Detección de marea terrestre utilizando una red de monitoreo satelital continuo – Una aplicación en la República Argentina.}}
+\cvitem{Supervisores}{Ing. Enrique E. D'Onofrio, Ing Fernando A. Oreiro}
+\cvitem{Encuadre}{El trabajo se enmarcó en el proyecto UBACyT 20020100100840 correspondiente a
+la programación científica 2011-2014, radicado en el Instituto de Geodesia y Geofísica
+Aplicadas de la Facultad de Ingeniería de la Universidad de Buenos Aires.}
+
+\subsection{Trabajos en eventos científico-tecnológicos}
+
+\cvitem{Clavijo JJ \\ Martínez JF } {\textit{Marcos de Referencia Geodésicos, Un enfoque Bayesiano.} Argentina. Buenos Aires. 2021. Congreso. CADI / CLADI / CAEDI }
+
+\cvitem{Clavijo JJ \\ Harguinteguy M \\ Mohuanna E} {\textit{Federalismo en la Agrimensura Argentina: Una respuesta Cartográfica.} Argentina. Mendoza. 2019. Congreso. XII Congreso Nacional de Agrimensura}
+
+\cvitem{Clavijo JJ} {\textit{Aprendizaje estadístico con series geodésicas.} Argentina. Buenos Aires. 2018. Congreso. III Jornadas de Geociencias para la Ingeniería, Facultad de Ingeniería - Universidad de Buenos Aires}
+
+\cvitem{Clavijo JJ \\ Oreiro FA \\ Fiore M \\ D'Onofrio EE} {\textit{Medición de altura del agua con receptor GNSS de bajo costo.} Argentina. La Plata. 2017. Congreso. XXVIII Reunión Científica de la Asociación Argentina de Geofísicos y Geodestas (AAGG 2017). Asociación Argentina de Geofísicos y Geodestas}
+
+\cvitem{Clavijo JJ; Miranda SA} {\textit{Sistema de ajuste GNSS desde una base de datos geoespacial} Argentina. La Plata. 2017. Congreso. XXVIII Reunión Científica de la Asociación Argentina de Geofísicos y Geodestas (AAGG 2017). Asociación Argentina de Geofísicos y Geodestas}
+
+\cvitem{Arecco MA \\ Oreiro FA \\ Clavijo JJ \\ Pradelli A} {\textit{Predicción de ocurrencia de escorrentía a partir de datos GRACE, hidrométricos y pluviométricos en el curso inferior del Río Paraná} Santa Fe, 2 y 3 de Junio 2016. 2do Encuentro Nacional de investigadores de Agrimensura. Facultad de Ingeniería y ciencias hídricas, Universidad Nacional del Litoral }
+
+\cvitem{Oreiro FA \\ D'Onofrio EE \\ Fiore M \\ Clavijo JJ \\ Arecco MA \\ Larocca PA} {\textit{Cálculo de la corrección de carga oceánica utilizando un modelo regional de marea y observaciones de altura del agua en el Río de la Plata} La Plata. 15 a 16 de Abril 2016.  Primer Taller Nacional del Observatorio Argentino-Alemán de Geodesia (AGGO). RAPEAS Red Argentina Para el Estudio de la Atmósfera Superior}
+
+\cvitem{Clavijo JJ \\ Oreiro FA} {\textit{Un año de marea en Base Esperanza: Análisis del SNR en el sitio SPRZ.} Buenos Aires. 2 y 3 de Septiembre 2015. II Jornadas de Geociencias para la Ingeniería. Facultad de Ingeniería, Universidad de Buenos Aires}
+
+
+\cvitem{Clavijo JJ \\ Oreiro FA \\ D'Onofrio EE}{ \textit{Medición de deformación periódica de la corteza terrestre utilizando estaciones GPS permanentes: Aplicación a la red RAMSAC y evaluación de los errores del método.} San Juan. 10 a 14 de Noviembre de 2014. XXVII Reunión Científica de la Asociación Argentina de Geofísicos y Geodestas. Asociación Argentina de Geofísicos y Geodestas}
+
+\cvitem{Clavijo JJ}{ \textit{Señales diurnas y sub - diurnas de marea terrestre en la medición GPS: una aplicación en la red RAMSAC.} Buenos Aires. 24 y 25 de septiembre 2014. Jornada. Primeras Jornadas de Geociencias para la Ingeniería. Facultad de Ingeniería, Universidad de Buenos Aires}
+
+%\section{Asistencia a Congresos}
+%
+%\cvlistitem{Congreso Nacional de Geodesia y Geofísica AAGG -- Córdoba -- Noviembre 2010}
+%\cvlistitem{Congreso Nacional de Fotogrametría -- Santa Fe -- Septiembre 2011}
+%\cvlistitem{FOSS4G: Conferencia de Geomática Libre -- IGN, Buenos Aires -- Abril 2013}
+%\cvlistitem{I Jornadas de Geociencias para la ingeniería -- FIUBA, Buenos Aires -- Septiembre 2014}
+%\cvlistitem{XXVII Reunión Científica de la Asociación Argentina de Geofísicos y Geodestas -- Noviembre 2014}
+%\cvlistitem{II Jornadas de Geociencias para la ingeniería -- FIUBA, Buenos Aires -- Septiembre 2015}
+%\cvlistitem{Primer Taller Nacional del Observatorio Argentino-Alemán de Geodesia (AGGO) -- La Plata -- Abril 2016}
+
+\section{Lengua Extranjera}
+\cvitemwithcomment{Inglés}{Medio}{Lectura y comprensión avanzada, nivel de comunicación oral medio.}
+
+\section{Informática}
+\cvdoubleitem{Programación}{Python, C, Lisp, Perl, awk, bash, Haskell}{Bases de Datos}{Postgres}
+\cvdoubleitem{Análisis de Datos}{Python, R}{Oficina}{Word, Excel, Libreoffice}
+\cvdoubleitem{Infraestructura}{Docker, Git, Podman/Buildah}{Sistemas Operativos}{Linux, Windows}
+\cvdoubleitem{Edición}{Inkscape, GIMP, Latex}{Dibujo}{CAD:AutoCAD, BricsCAD}
+
+\end{document}
+
+
+%% end of file `template.tex'.
+
+              
